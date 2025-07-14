@@ -1,8 +1,6 @@
 
 
-import react from 'react'
-
-function Card({ nome, descricao, condicao, foto }) {
+export default function ItemCard({ nome, descricao, condicao, foto }) {
   return (
     <div className="bg-white rounded-2xl min-w-80 shadow-md p-4 border border-gray-200 hover:shadow-laranja ">
       <img
@@ -27,5 +25,4 @@ function Card({ nome, descricao, condicao, foto }) {
   );
 }
 
-export default Card;
 
